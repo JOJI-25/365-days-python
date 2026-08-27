@@ -20,5 +20,5 @@ def longest_alternating_streak(numbers):
         
     return max_len
 
-# Example usage:
-print(longest_alternating_streak([1, 5, 2, 8, 3, 4, 2]))  # Output: 5
+n = list(map(int, input("Enter the numbers : ").split()))
+print(longest_alternating_streak(n))
