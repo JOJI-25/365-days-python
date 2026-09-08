@@ -1,33 +1,35 @@
-class movie:
-    def __init__(self, title,genre,rating):
+class Movie:
+    def __init__(self, title, genre, rating):
         self.title = title
         self.genre = genre
         self.rating = rating
+
     
-    def add_movies(self):
-        self.title = input("Enter the Title: ")
-        self.genre = input("Enter the Genre: ")
-        rating = float(input("Enter the Rating: "))
-
-        if rating <= 10:
-            self.rating = rating
-        else:
-            print("Invalid Rating!")
-
     def display_info(self):
         print(f"Title: {self.title}")
         print(f"Genre: {self.genre}")
         print(f"Rating: {self.rating}")
-        
-    def update_rating(self):
-        rating = float(input("Enter the Rating: "))
+        print() 
 
-        if rating <= 10:
-            self.rating = rating
+    
+    def update_rating(self, new_rating):
+        if 0 <= new_rating <= 10:
+            print(f"Updating rating to {new_rating}...\n")
+            self.rating = new_rating
         else:
-            print("Invalid Rating!")
+            print(f"Cannot update: {new_rating} is invalid. Rating must be between 0 and 10.\n")
 
-my_movie = movie("interstellar","Drama",9.5)
-my_movie2 = movie("avengers","scifi",8.6)
+movie1 = Movie("Interstellar", "Sci-Fi", 8.7)
 
-my_movie.update_rating()
+movie1.display_info()
+movie1.update_rating(9.0)
+movie1.display_info()
+
+print("-" * 20 + "\n") 
+
+
+movie2 = Movie("Spirited Away", "Animation", 8.6)
+
+movie2.display_info()
+movie2.update_rating(12.5) 
+movie2.display_info()
