@@ -21,8 +21,8 @@ class bicycle:
 
     def display_status(self):
         print(f"Brand Name : {self.brand}")
-        print(f"Total distance: {self.total_distance}")
-        print(f"Current speed : {self.current_speed}")
+        print(f"Total distance: {self.total_distance} Km")
+        print(f"Current speed : {self.current_speed} Km/h")
 
 my_bike = bicycle(brand = "hero",total_distance = 0,current_speed = 0)
 my_bike.display_status()
