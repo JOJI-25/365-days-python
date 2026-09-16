@@ -4,7 +4,7 @@ class TrafficSignal:
         self.color = color
 
     def change_color(self,new_color):
-        if new_color in ["Red", "Yellow", "Green"]:
+        if new_color == "Red" or "Yellow" or "Green":
             self.color = new_color
             print("Updated Color: ",self.color)
         else:
