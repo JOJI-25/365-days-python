@@ -1,25 +1,31 @@
 <div align="center">
 
-<!-- Animated Typing Header -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=35&duration=3000&pause=1000&color=F7DF1E&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=%F0%9F%90%8D+365+Days+of+Python;One+Day.+One+Challenge.+Every+Day." alt="Typing SVG" />
+<!-- ═══════════════════ 3D HERO BANNER ═══════════════════ -->
+
+<img src="assets/hero_banner.jpg" width="100%" alt="365 Days of Python — 3D Hero Banner" />
 
 <br/>
 
-<!-- Snake Animation -->
-<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake animation" />
+<!-- Animated Typing Subtitle -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=F7DF1E&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=60&lines=One+Day.+One+Challenge.+Every+Single+Day.+%F0%9F%94%A5" alt="Typing SVG" />
 
-<br/>
+<br/><br/>
 
-<!-- Badges Row 1 -->
+<!-- Live Badges -->
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Days Completed](https://img.shields.io/badge/Days_Completed-30%2F365-FF6B35?style=for-the-badge&logo=clockify&logoColor=white)](#-30-day-progress-tracker)
 [![Programs](https://img.shields.io/badge/Programs_Written-136+-00C853?style=for-the-badge&logo=visualstudiocode&logoColor=white)](#-daily-breakdown)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
 
-<!-- Badges Row 2 -->
+<br/>
+
 [![GitHub stars](https://img.shields.io/github/stars/JOJI-25/365-days-python?style=for-the-badge&logo=github&color=yellow)](https://github.com/JOJI-25/365-days-python/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/JOJI-25/365-days-python?style=for-the-badge&logo=github&color=blue)](https://github.com/JOJI-25/365-days-python/network)
 [![GitHub last commit](https://img.shields.io/github/last-commit/JOJI-25/365-days-python?style=for-the-badge&logo=git&color=red)](https://github.com/JOJI-25/365-days-python/commits)
+
+<!-- Snake Animation -->
+<br/>
+<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake animation" />
 
 </div>
 
@@ -36,13 +42,15 @@
 
 ---
 
+<!-- ═══════════════════ 3D PROGRESS TRACKER ═══════════════════ -->
+
 ## 📊 30-Day Progress Tracker
 
 <div align="center">
 
-```
- ████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░  8.2% Complete (Day 30/365)
-```
+<img src="assets/progress_tracker.jpg" width="80%" alt="3D Progress Ring — 30/365 Days Complete" />
+
+<br/><br/>
 
 | Metric | Value |
 |:------:|:-----:|
@@ -56,30 +64,17 @@
 
 ---
 
-## 🧠 Skills Unlocked — 30 Day Radar
+<!-- ═══════════════════ 3D SKILLS RADAR ═══════════════════ -->
+
+## 🧠 Skills Unlocked — Holographic Radar
 
 <div align="center">
 
-```
-                          Arrays & Strings
-                               ██████
-                            ███████████
-                         ████████████████
-      Hash Maps &      ████████████████████      Sliding Window
-      Dictionaries    ██████████████████████    & Two Pointers
-                     ████████████████████████
-                      ██████████████████████
-                       ████████████████████
-                     ████████████████████████
-       OOP &          ██████████████████████         Data Science
-   Classes             ████████████████████        NumPy, Pandas
-                        ██████████████████
-                          ████████████████
-                            ████████████
-                              ████████
-                           Statistics &
-                            Visualization
-```
+<img src="assets/skills_radar.jpg" width="80%" alt="3D Holographic Skills Radar — 6 Core Competencies" />
+
+<br/>
+
+> 🔷 **Arrays** · 🔷 **Hash Maps** · 🔷 **Sliding Window** · 🔷 **OOP Basics** · 🔷 **Advanced OOP** · 🔷 **Data Science**
 
 </div>
 
@@ -95,8 +90,27 @@
 | 🗃️ **Hash Maps & Frequency** | Day 6 – 9 | 16 | Unique elements, grouping, consecutive sequences, distinct values |
 | 🪟 **Sliding Window & Subarrays** | Day 10 – 13 | 16 | Prefix sums, window sums, target subarrays, two pointers |
 | 🏗️ **OOP Fundamentals** | Day 14 – 21 | 37 | Classes, encapsulation, methods, state management, real-world modeling |
-| 🏗️ **OOP Advanced** | Day 22 – 27 | 30 | Inheritance patterns, complex systems, multi-class interaction |
+| 🏛️ **OOP Advanced** | Day 22 – 27 | 30 | Inheritance patterns, complex systems, multi-class interaction |
 | 📊 **Data Science & Analytics** | Day 28 – 30 | 15 | NumPy, Pandas, EDA, statistics, data visualization |
+
+</div>
+
+---
+
+<!-- ═══════════════════ 3D LEARNING ROADMAP ═══════════════════ -->
+
+## 📈 Learning Roadmap
+
+<div align="center">
+
+<img src="assets/learning_roadmap.jpg" width="100%" alt="3D Learning Roadmap — Arrays → Hash Maps → Sliding Window → OOP → Advanced OOP → Data Science" />
+
+<br/>
+
+```
+  🟠 Arrays     →     🟡 Hash Maps     →     🟢 Sliding Window     →     🔵 OOP     →     🟣 Advanced OOP     →     🔴 Data Science
+  Day 1-5              Day 6-9                 Day 10-13                  Day 14-21           Day 22-27                Day 28-30
+```
 
 </div>
 
@@ -204,11 +218,29 @@
 
 ---
 
+<!-- ═══════════════════ 3D STREAK CALENDAR ═══════════════════ -->
+
+## 🔥 30-Day Streak
+
+<div align="center">
+
+<img src="assets/streak_calendar.jpg" width="80%" alt="3D Streak Calendar — 30 Consecutive Days of Coding" />
+
+<br/>
+
+> 🟩 **30 / 30 Days Complete** — PERFECT STREAK! Every single day, without fail. 🔥
+
+</div>
+
+---
+
+<!-- ═══════════════════ 3D TECH STACK ═══════════════════ -->
+
 ## 🛠️ Tech Stack & Tools
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,numpy,vscode,git,github&theme=dark" alt="Tech Stack" />
+<img src="assets/tech_stack.jpg" width="80%" alt="3D Tech Stack — Python, NumPy, Pandas, VS Code, Git" />
 
 <br/><br/>
 
@@ -224,49 +256,15 @@
 
 ---
 
-## 🔥 Streak Calendar — First 30 Days
-
-<div align="center">
-
-```
-        Week 1          Week 2          Week 3          Week 4        Week 5
-     ┌─────────┐     ┌─────────┐     ┌─────────┐     ┌─────────┐   ┌───────┐
- Mon │ 🟩 🟩 🟩 │     │ 🟩 🟩 🟩 │     │ 🟩 🟩 🟩 │     │ 🟩 🟩 🟩 │   │ 🟩 🟩  │
- Tue │ 🟩 🟩 🟩 │     │ 🟩 🟩 🟩 │     │ 🟩 🟩 🟩 │     │ 🟩 🟩 🟩 │   │ 🟩 ⬜  │
- Wed │ 🟩 🟩 🟩 │     │ 🟩 🟩 🟩 │     │ 🟩 🟩 🟩 │     │ 🟩 🟩 🟩 │   │ ⬜ ⬜  │
- Thu │ 🟩 🟩 🟩 │     │ 🟩 🟩 🟩 │     │ 🟩 🟩 🟩 │     │ 🟩 🟩 🟩 │   │ ⬜ ⬜  │
- Fri │ 🟩 🟩 🟩 │     │ 🟩 🟩 🟩 │     │ 🟩 🟩 🟩 │     │ 🟩 🟩 🟩 │   │ ⬜ ⬜  │
-     └─────────┘     └─────────┘     └─────────┘     └─────────┘   └───────┘
-    🟩 = Completed     ⬜ = Upcoming     🔥 30 / 30 Days — PERFECT STREAK!
-```
-
-</div>
-
----
-
-## 📈 Learning Progression
-
-```mermaid
-graph LR
-    A["🔢 Day 1-5<br/>Arrays & Logic"] --> B["🗃️ Day 6-9<br/>Hash Maps"]
-    B --> C["🪟 Day 10-13<br/>Sliding Window"]
-    C --> D["🏗️ Day 14-21<br/>OOP"]
-    D --> E["🏛️ Day 22-27<br/>Advanced OOP"]
-    E --> F["📊 Day 28-30<br/>Data Science"]
-
-    style A fill:#FF6B35,stroke:#fff,color:#fff
-    style B fill:#FF8C42,stroke:#fff,color:#fff
-    style C fill:#FFA500,stroke:#fff,color:#fff
-    style D fill:#36BCF7,stroke:#fff,color:#fff
-    style E fill:#9B59B6,stroke:#fff,color:#fff
-    style F fill:#E74C3C,stroke:#fff,color:#fff
-```
-
----
+<!-- ═══════════════════ 3D MILESTONES ═══════════════════ -->
 
 ## 🏆 Milestones Achieved
 
 <div align="center">
+
+<img src="assets/milestones.jpg" width="80%" alt="3D Trophy — 30-Day Achievement Unlocked" />
+
+<br/><br/>
 
 | 🏅 Milestone | 📅 Date | ✅ Status |
 |:---|:---:|:---:|
@@ -306,6 +304,7 @@ python "Digit Statistics.py"
 
 ```
 365-days-python/
+├── 🖼️ assets/            # 3D visual assets for README
 ├── 📁 Day-001/          # 4 programs — Arrays & String Logic
 ├── 📁 Day-002/          # 4 programs — Validation & Streaks
 ├── 📁 Day-003/          # 4 programs — Consecutive Counting
@@ -336,7 +335,7 @@ Want to join the challenge? Fork the repo and start your own 365 days!
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" alt="Footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" alt="Footer Wave" />
 
 **Made with 💛 and Python 🐍**
 
