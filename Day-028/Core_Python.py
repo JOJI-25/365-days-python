@@ -48,3 +48,4 @@ print("High spender:",high_spender)
 
 sorted_customers = sorted(customer_total.items(), key=lambda item:item[1], reverse=True )
 print("Sorted customers:",sorted_customers)
+

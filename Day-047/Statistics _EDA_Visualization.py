@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+# pyrefly: ignore [missing-import]
 from statsmodels.stats.proportion import proportions_ztest
 
 experiment = pd.DataFrame({

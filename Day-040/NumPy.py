@@ -58,3 +58,4 @@ print("--- 5. Normalised Production & Improvements ---")
 for p, imp in zip(panels, improvements):
   print(f"Panel {p} improvement range: {imp:.3f}")
 print(f"Panel with the largest improvement: {largest_improvement_panel}")
+

@@ -10,12 +10,10 @@ class Product:
         self.quantity = quantity
 
     def increase_quantity(self, amount):
-        """Adds to the current quantity."""
         if amount > 0:
             self.quantity += amount
 
     def decrease_quantity(self, amount):
-        """Subtracts from the current quantity safely."""
         if amount > 0:
             if self.quantity - amount < 0:
                 print(f"Error: Cannot remove {amount}. Not enough in stock.")

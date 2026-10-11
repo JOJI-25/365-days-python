@@ -66,8 +66,9 @@ plt.subplot(1, 2, 2)
 sns.boxplot(y=prep_time, color="lightgreen")
 plt.title("Box Plot of Preparation Times")
 plt.ylabel("Preparation Time (Minutes)")
-plt.show()
+
 plt.tight_layout()
+plt.show()
 
 exceeding_30 = prep_time[prep_time > 30]
 pct_gt_30 = (len(exceeding_30) / len(prep_time)) * 100

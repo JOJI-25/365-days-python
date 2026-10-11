@@ -74,3 +74,5 @@ print("City with Highest AOV:", top_city_aov, "\n")
 print("Pivot Table (City x Category):\n", pivot_city_category, "\n")
 print("Customers with >1 Order:", frequent_customers, "\n")
 print("Does Premium generate more revenue per customer than Regular?", premium_vs_regular)
+
+

@@ -20,7 +20,7 @@ else:
             current_len = 1
             current_elements = [long[i]]
 
-    # Final check for the last sequence
+   
     if current_len > long_len:
         long_len = current_len
         long_element = list(current_elements)

@@ -38,9 +38,6 @@ course_engagement = df.groupby('course').agg({
     'quiz_score': 'mean'
 }).reset_index()
 
-print("--- Course Summary ---")
-print(course_summary)
-print("\n--- Struggling Students ---")
-print(struggling_students[['student_id', 'course', 'completion_rate', 'quiz_score']])
-print("\n--- Full DF with Engagement ---")
+
 print(df[['student_id', 'course', 'completion_rate', 'hours_week', 'engagement_level']])
+print(struggling_students[['student_id', 'course', 'completion_rate', 'quiz_score']])

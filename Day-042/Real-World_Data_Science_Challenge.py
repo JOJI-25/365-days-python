@@ -16,17 +16,13 @@ data = {
 }
 df = pd.DataFrame(data)
 
-# 1. Compare policyholders who filed claims vs those who did not
 comparison = df.groupby('claim_next_year')[['previous_claims', 'vehicle_age', 'annual_km', 'age', 'annual_premium']].mean()
 print("--- 1. Feature Means by Claim Status (0: No Claim, 1: Claim) ---")
 print(comparison)
 print()
 
 
-# 2. Feature Engineering
-# Feature 1: Driving intensity relative to vehicle age (annual km per year of vehicle age)
 df['km_per_vehicle_age'] = df['annual_km'] / (df['vehicle_age'] + 1)
-# Feature 2: Claim history density relative to age
 df['claim_density'] = df['previous_claims'] / (df['age'] - 18 + 1)
 
 print("--- 2. Engineered Features Sample ---")
@@ -34,7 +30,6 @@ print(df[['policy_id', 'km_per_vehicle_age', 'claim_density']].head())
 print()
 
 
-# 3. Build a baseline scikit-learn classification model
 features = ['age', 'annual_premium', 'previous_claims', 'vehicle_age', 'annual_km', 'km_per_vehicle_age', 'claim_density']
 X = df[features]
 y = df['claim_next_year']
@@ -56,14 +51,12 @@ print(classification_report(y_test, y_pred, zero_division=0))
 print(f"ROC-AUC Score: {roc_auc_score(y_test, y_prob):.2f}\n")
 
 
-# 4. Analyze feature coefficients
 coefficients = pd.Series(model.coef_[0], index=features).sort_values(ascending=False)
 print("--- 4. Logistic Regression Coefficients ---")
 print(coefficients)
 print()
 
 
-# 5. Strategic Recommendation Summary
 print("--- 5. Practical Recommendation & Business Implication ---")
 print("Recommendation:")
 print("- Use the model's predicted risk probabilities rather than a strict cutoff.")
